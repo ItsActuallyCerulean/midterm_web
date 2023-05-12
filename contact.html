@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/vee3eao.css">
+    <link rel="stylesheet" href="https://use.typekit.net/vee3eao.css">
+    <script defer src="app.js"></script>
+    <title>Inspiration for the midterm</title>
+</head>
+<body>
+    <nav class="navbar">
+        <img class="brand-title" src="img/title.svg" alt="">
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+        <button type="submit" class="contact_me" onclick="openPopup()"></button>
+        <section class="wrapper">
+            <div class="social_media">
+                <a href="facebook.com"><img src="img/Facebook-Logo.png" alt="Facebook"></a>
+                <a href="instagram.com"><img src="img/Instagram-Logo.png" alt="Instagram"></a>
+                <a href="linkedin.com"><img src="img/LinkedIn-Logo.png" alt="LinkedIn"></a>
+            </div>
+        </section>
+    
+        <!--need to fix the position of the pop up-->
+        <div class="container"id="popup">
+            <form action="" >
+                <h2 class="contact_h2">Contact me</h2>
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Email Id" required>
+                <textarea placeholder="Your query here"></textarea>
+                <button type="submit" onclick="closePopup()">Send</button>
+            </form>
+        </div>
+        
+   
+   
+
+   
+
+  
+   
+</body>
+<footer>
+    <img src="img/footer.svg" alt="copyright Laurence Carrier 2023 All rights reserved">
+</footer>
+</html>
